@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronograma de Estudos</title>
+</head>
+
+<style>
+    .imagem-cronograma {
+        width: 400px;
+        margin-top: 50px;
+    }
+
+    .imagem-relógio {
+        width: 30px;
+    }
+
+    table {
+        border-collapse: collapse;
+        border: 1px solid black;
+        width: 100%;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 20px;
+    }
+
+    .coluna-alinhamento {
+        text-align: center;
+    }
+
+    
+</style>
+
+
+<body>
+
+    <header style="text-align: center;">
+        <h1>Plano de Estudo - Carla</h1>
+        <img class="imagem-cronograma" src="./images/image-bonita.png" alt="imagem cronograma">
+    </header>
+
+    <table>
+    
+        <thead>
+            <tr>
+                <th><img class="imagem-relógio" src="./images/horario.png" alt="imagem relógio"></th>
+                <th>SEGUNDA</th>
+                <th>TERÇA</th>
+                <th>QUARTA</th>
+                <th>QUINTA</th>
+                <th>SEXTA</th>
+                <th>SÁBADO</th>
+                <th>DOMINGO</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="coluna-alinhamento">
+                <th>08:00 - 12:00</th>
+                <td>Academia / Estudos Growdev</td>
+                <td>Academia / Estudos Growdev</td>
+                <td>Academia / Estudos Growdev</td>
+                <td>Academia / Estudos Growdev</td>
+                <td>Academia / Estudos Growdev</td>
+                <td>Academia / Família</td>
+                <td>Descansar</td>
+               
+
+            </tr>
+            <tr class="coluna-alinhamento">
+                <th>12:00 - 13:00</th>
+                <td colspan="7">Almoçar</td>
+
+            </tr>
+            <tr class="coluna-alinhamento">
+                <th>13:00 - 15:00</th>
+                <td>Aula Growdev</td>
+                <td>Aula Growdev</td>
+                <td>Aula Growdev</td>
+                <td>Aula Growdev</td>
+                <td>Aula Growdev</td>
+                <td>Lazer</td>
+                <td rowspan="4">Descansar</td>
+            </tr>
+            <tr class="coluna-alinhamento">
+                <th>15:00 - 18:00</th>
+                <td>Aula Growdev</td>
+                <td>Aula Growdev</td>
+                <td>Aula Growdev</td>
+                <td>Aula Growdev</td>
+                <td>Aula Growdev</td>
+                <td>Lazer</td>
+            </tr>
+            <tr class="coluna-alinhamento">
+                <th>18:00 - 22:30</th>
+                <td>Brincar com os filhos</td>
+                <td>Brincar com os filhos</td>
+                <td>Brincar com os filhos</td>
+                <td>Brincar com os filhos</td>
+                <td>Brincar com os filhos</td>
+                <td>Lazer</td>
+
+
+            </tr>
+            <tr class="coluna-alinhamento">
+                <th>22:30 - 08:00</th>
+                <td colspan="7">Dormir</td>
+            </tr>
+        </tbody>
+        <tfoot style="text-align: center;">
+            <td colspan="8">
+                <img src="./images/growdev.png" alt="Logo Growdev">
+            </td>
+        </tfoot>
+    </table>
+    <footer style="text-align: center">
+        <small>Atividade Prática - Tabela Cronograma de Estudos
+            <a href="https://www.growdev.com.br" target="_blank">&reg;Growdev</a>
+        </small> 
+    </footer>
+    
+</body>
+</html>
