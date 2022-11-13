@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cronograma de Estudos</title> 
+  
+
+  <style>
+    .coluna-alinhamento {
+      text-align: center;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    table {
+      border: 1px solid black;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th {
+      border: 1px solid black;
+      padding: 20px;
+      font-weight: bolder;
+    }
+
+    td {
+      border: 1px solid black;
+      padding: 20px;
+
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <h1>Plano de estudos da Paola</h1>
+    <img src="./images/cat-mouse.gif" alt="imagem gatinho no computador" style="margin-bottom: 10px ;" width="300px">
+  </header>
+
+  <main>
+    <table>
+      <thead>
+        <tr>
+          <th>
+            <img src="./images/horario.png" alt="imagem de um relógio" width="50px">
+          </th>
+          <th>SEGUNDA</th>
+          <th>TERÇA</th>
+          <th>QUARTA</th>
+          <th>QUINTA</th>
+          <th>SEXTA</th>
+          <th>SÁBADO</th>
+          <th>DOMINGO</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="coluna-alinhamento">
+          <th>08:00 - 12:00</th>
+          <td>Estudar</td>
+          <td>Estudar</td>
+          <td>Estudar</td>
+          <td>Estudar</td>
+          <td>Estudar</td>
+          <td>Um rolezinho</td>
+          <td>Descansar/Estudar</td>
+        </tr>
+        <tr class="coluna-alinhamento">
+          <th>12:00 - 13:00</th>
+          <td colspan="7">Almoçar</td>
+
+
+
+
+        </tr>
+        <tr class="coluna-alinhamento">
+          <th>13:00 - 15:00</th>
+          <td>Aulas/Growdev</td>
+          <td>Aulas/Growdev</td>
+          <td>Aulas/Growdev</td>
+          <td>Aulas/Growdev</td>
+          <td>Aulas/Growdev</td>
+          <td>Descansar</td>
+          <td class="coluna-alinhamento" rowspan="3">Descansar</td>
+        </tr>
+        <tr class="coluna-alinhamento">
+          <th>15:00 - 18:00</th>
+          <td>Aulas/Growdev</td>
+          <td>Aulas/Growdev</td>
+          <td>Aulas/Growdev</td>
+          <td>Aulas/Growdev</td>
+          <td>Aulas/Growdev</td>
+          <td>Um rolezinho</td>
+        </tr>
+        <tr class="coluna-alinhamento">
+          <th>18:00 - 22:30</th>
+          <td>Descansar</td>
+          <td>Descansar</td>
+          <td>Descansar</td>
+          <td>Descansar</td>
+          <td>Descansar</td>
+          <td>Um rolezinho</td>
+
+        </tr>
+        <tr class="coluna-alinhamento">
+          <th>22:30 - 07:00</th>
+          <td colspan="7">Dormir</td>
+
+
+        </tr>
+      </tbody>
+      <tfoot class="coluna-alinhamento">
+          <tr>
+            <td colspan="8" >
+              <img src="./images/growdev.png" alt="Logo growdev">
+            </td>   
+          </tr>
+      </tfoot>
+    </table>
+  </main>
+  <footer style="margin: top 30px; text-align: center;">
+    <small>
+      Atividade prática - Tabela Cronograma de Estudos - &copy;
+        <a href="https://www.growdev.com.br/" target="_blank">Growdev</a>
+        2022
+    </small>
+</footer>
+</body>
+
+</html>
